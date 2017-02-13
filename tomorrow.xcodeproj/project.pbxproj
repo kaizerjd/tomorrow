@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185C1EDF52CFF75886C84012 /* Pods_tomorrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9762CFB468FA487B8EE370F9 /* Pods_tomorrow.framework */; };
 		59F320A35E6E69784D17B1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F3201323A9D7EA61E5F92C /* LaunchScreen.storyboard */; };
 		59F320E2AEE502808DE5E399 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F3220550EA7C4B104A380F /* CategoryCell.swift */; };
 		59F3224AE435142D84376A03 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F32708B36B3DCD60502E3B /* CalendarHelper.swift */; };
@@ -20,20 +21,18 @@
 		59F32945809A2A6DED25D16D /* TomorrowNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F329AF974CE89DAE307744 /* TomorrowNavigationController.swift */; };
 		59F3295549807946CDE66772 /* TomorrowUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F32FB80A69102D65ACBA41 /* TomorrowUIViewController.swift */; };
 		59F32A58E631C5F16438A75F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F324D879FF83817EA03E42 /* Assets.xcassets */; };
-		59F32AFEA126097F7AFCC5BE /* OSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F3297DDC35FD2514EECE7A /* OSCache.m */; };
-		59F32B0DCD8C2F1BEBC25E5A /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F3220FFA50B6E9C4544C88 /* OrderedDictionary.m */; };
 		59F32B677CD8D513AF0741A5 /* EventViewForPanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F32D72DC7647A7CB0BE902 /* EventViewForPanning.swift */; };
 		59F32C919A6BF202822AD9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F326F946FEBAE779EE4109 /* AppDelegate.swift */; };
 		59F32D68927C8BC027EB1500 /* DayPlannerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F32C0A75DE3A6E42DC591C /* DayPlannerViewDataSource.swift */; };
 		59F32E88256650AD684BE923 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F3226E8FBE7FA13CF7C852 /* AddCategoryView.swift */; };
 		59F32EF2621D491E62C49648 /* DayPlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F32FDE3385AC4AD885CD09 /* DayPlannerViewController.swift */; };
 		59F32F820B219DE2A6444A39 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F323B4A1B663070A5647A3 /* Event.swift */; };
-		7BABBB5F1E503F5D00AB8995 /* CalendarLib in Resources */ = {isa = PBXBuildFile; fileRef = 7BABBB5E1E503F5D00AB8995 /* CalendarLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07DA8D3966E271665A94F67D /* Pods-tomorrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomorrow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tomorrow/Pods-tomorrow.debug.xcconfig"; sourceTree = "<group>"; };
+		210D3D27ED43D2C9314F093C /* Pods-tomorrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomorrow.release.xcconfig"; path = "Pods/Target Support Files/Pods-tomorrow/Pods-tomorrow.release.xcconfig"; sourceTree = "<group>"; };
 		59F3220550EA7C4B104A380F /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
-		59F3220FFA50B6E9C4544C88 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
 		59F3226E8FBE7FA13CF7C852 /* AddCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
 		59F3232D7C2E0D84593F9BA8 /* CategoryDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDataSource.swift; sourceTree = "<group>"; };
 		59F323B4A1B663070A5647A3 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -42,10 +41,8 @@
 		59F326B0D53C67A17CCA865F /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		59F326F946FEBAE779EE4109 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59F32708B36B3DCD60502E3B /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
-		59F3274D94F776514514E432 /* OSCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCache.h; sourceTree = "<group>"; };
 		59F327A95B3F73E76CE88946 /* CalendarLib-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CalendarLib-Bridging-Header.h"; sourceTree = "<group>"; };
 		59F32935DF72D441D80158A3 /* EventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
-		59F3297DDC35FD2514EECE7A /* OSCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCache.m; sourceTree = "<group>"; };
 		59F32984D5ACD57A13CB0357 /* tomorrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomorrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F329AF974CE89DAE307744 /* TomorrowNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TomorrowNavigationController.swift; sourceTree = "<group>"; };
 		59F32A4697E1B28447C9DE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -53,11 +50,10 @@
 		59F32C0A75DE3A6E42DC591C /* DayPlannerViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayPlannerViewDataSource.swift; sourceTree = "<group>"; };
 		59F32D72DC7647A7CB0BE902 /* EventViewForPanning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewForPanning.swift; sourceTree = "<group>"; };
 		59F32E28AADE37039F5AA682 /* CategoryPropertiesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPropertiesView.swift; sourceTree = "<group>"; };
-		59F32E764A56CF72DDB389C8 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
 		59F32ED480A63FC5AA5CFDF2 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
 		59F32FB80A69102D65ACBA41 /* TomorrowUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TomorrowUIViewController.swift; sourceTree = "<group>"; };
 		59F32FDE3385AC4AD885CD09 /* DayPlannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayPlannerViewController.swift; sourceTree = "<group>"; };
-		7BABBB5E1E503F5D00AB8995 /* CalendarLib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CalendarLib; path = ../Calendar/CalendarLib; sourceTree = "<group>"; };
+		9762CFB468FA487B8EE370F9 /* Pods_tomorrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tomorrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185C1EDF52CFF75886C84012 /* Pods_tomorrow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E22DFFB68579986D32DC2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9762CFB468FA487B8EE370F9 /* Pods_tomorrow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52ABBEACD6E82F7AABC5868E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07DA8D3966E271665A94F67D /* Pods-tomorrow.debug.xcconfig */,
+				210D3D27ED43D2C9314F093C /* Pods-tomorrow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		59F3200E5346D5FC4BDD0174 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,15 +113,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		59F328BAE6B8A7A22E477D99 /* OrderedDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				59F32E764A56CF72DDB389C8 /* OrderedDictionary.h */,
-				59F3220FFA50B6E9C4544C88 /* OrderedDictionary.m */,
-			);
-			path = OrderedDictionary;
-			sourceTree = "<group>";
-		};
 		59F32AA54C05D18DB9AA30EA /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,15 +121,6 @@
 				59F32708B36B3DCD60502E3B /* CalendarHelper.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		59F32AA96B8C8FCBCE577E46 /* OSCache */ = {
-			isa = PBXGroup;
-			children = (
-				59F3274D94F776514514E432 /* OSCache.h */,
-				59F3297DDC35FD2514EECE7A /* OSCache.m */,
-			);
-			path = OSCache;
 			sourceTree = "<group>";
 		};
 		59F32BC03343772E8A4325A2 /* tomorrow */ = {
@@ -156,11 +152,10 @@
 		59F32CA19BA47DA528080DE2 = {
 			isa = PBXGroup;
 			children = (
-				7BABBB5E1E503F5D00AB8995 /* CalendarLib */,
 				59F3281EB4B19F7C36612153 /* Products */,
 				59F32BC03343772E8A4325A2 /* tomorrow */,
-				59F32AA96B8C8FCBCE577E46 /* OSCache */,
-				59F328BAE6B8A7A22E477D99 /* OrderedDictionary */,
+				52ABBEACD6E82F7AABC5868E /* Pods */,
+				0E22DFFB68579986D32DC2E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59F323FC26CA51BC4A9A4774 /* Build configuration list for PBXNativeTarget "tomorrow" */;
 			buildPhases = (
+				2467569136845742F6786948 /* [CP] Check Pods Manifest.lock */,
 				59F32196D6107477FEF42F8E /* Sources */,
 				59F3233CD0C45BDA16844448 /* Frameworks */,
 				59F32EE8788BCEE38525B850 /* Resources */,
+				F9A2200613446851912EA9E8 /* [CP] Embed Pods Frameworks */,
+				2E68E176377FC2AF5F0B1A35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BABBB5F1E503F5D00AB8995 /* CalendarLib in Resources */,
 				59F3226F8FAF9126F99CEACE /* Info.plist in Resources */,
 				59F32A58E631C5F16438A75F /* Assets.xcassets in Resources */,
 				59F320A35E6E69784D17B1B2 /* LaunchScreen.storyboard in Resources */,
@@ -241,6 +238,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2467569136845742F6786948 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E68E176377FC2AF5F0B1A35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tomorrow/Pods-tomorrow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A2200613446851912EA9E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tomorrow/Pods-tomorrow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59F32196D6107477FEF42F8E /* Sources */ = {
@@ -263,8 +308,6 @@
 				59F324A4630E258EE5A80049 /* Category.swift in Sources */,
 				59F32F820B219DE2A6444A39 /* Event.swift in Sources */,
 				59F3224AE435142D84376A03 /* CalendarHelper.swift in Sources */,
-				59F32AFEA126097F7AFCC5BE /* OSCache.m in Sources */,
-				59F32B0DCD8C2F1BEBC25E5A /* OrderedDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +327,7 @@
 /* Begin XCBuildConfiguration section */
 		59F320294FF79124DAB260B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210D3D27ED43D2C9314F093C /* Pods-tomorrow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tomorrow/Info.plist;
@@ -390,6 +434,7 @@
 		};
 		59F32F1F9D79475E7CC23C01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DA8D3966E271665A94F67D /* Pods-tomorrow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tomorrow/Info.plist;
