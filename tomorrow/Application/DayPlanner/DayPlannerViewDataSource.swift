@@ -109,7 +109,7 @@ class DayPlannerViewDataSource: NSObject, MGCDayPlannerViewDataSource {
     var e: Event?
 
     for event in events {
-      var range = event.getDateRange()
+      let range = event.getDateRange()
       if date < range.start {
         if range.start < minDate {
           minDate = range.start
@@ -121,8 +121,8 @@ class DayPlannerViewDataSource: NSObject, MGCDayPlannerViewDataSource {
     return e
   }
 
-  func addEvent(_ date: Date, category category: Category) {
-    var start = date
+  func addEvent(_ date: Date, category: Category) {
+    let start = date
     var end = CalendarHelper.getTomorrow(forDate: date)
 
     if let nextEvent = getNextTimeEvent(date) {

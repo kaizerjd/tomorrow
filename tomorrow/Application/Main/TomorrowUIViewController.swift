@@ -74,7 +74,6 @@ class TomorrowUIViewController: UIViewController {
         dragAndDropView = EventViewForPanning(category: categoryView.category)
         dragAndDropView!.frame = CGRect(origin: loc, size: CGSize(width: 80, height: 80))
         dragAndDropView!.center = loc
-        //dragAndDropView!.backgroundColor = UIColor.red.withAlphaComponent(0.5)
         view!.addSubview(dragAndDropView!)
 
       }
@@ -87,6 +86,7 @@ class TomorrowUIViewController: UIViewController {
 
         let convertedLoc = view!.convert(loc, to: dayView!.dayPlannerView)
         var rect: CGRect? = nil
+
 
         if dayView!.dayPlannerView.frame.intersects(CGRect(origin: convertedLoc,
             size: CGSize.zero)) {

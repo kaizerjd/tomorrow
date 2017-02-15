@@ -5,6 +5,7 @@
 
 import Foundation
 import UIKit
+
 //import CalendarLib
 
 
@@ -48,7 +49,7 @@ class DayPlannerViewController: MGCDayPlannerViewController {
     let dataSource = _dataSource!
 
     if let originDate = dpv.date(at: point, rounded: false) {
-      dataSource.addEvent(originDate,category: category)
+      dataSource.addEvent(originDate, category: category)
     }
   }
 
@@ -65,6 +66,8 @@ class DayPlannerViewController: MGCDayPlannerViewController {
     if let originDate = dpv.date(at: point, rounded: false) {
 
       let originRect = dpv.rectForNewEvent(of: .timedEventType, at: originDate)
+      print("H: \(Calendar.current.component(.hour, from: originDate)) M: \(Calendar.current.component(.minute, from: originDate))")
+      print("O: \(origin) C: \(originRect.origin)")
 
 
       var height: CGFloat = 0.0
@@ -87,6 +90,25 @@ class DayPlannerViewController: MGCDayPlannerViewController {
     }
 
     return nil
+
+  }
+
+}
+
+extension DayPlannerViewController {
+
+
+  override func dayPlannerView(_ view: MGCDayPlannerView!, attributedStringFor mark: MGCDayPlannerTimeMark, time ti: TimeInterval) -> NSAttributedString! {
+
+    let dateTime = Date(timeInterval: ti, since: Calendar.current.date(bySettingHour: 0, minute: 0, second: 0, of: Date())!)
+
+    let formatter = DateFormatter()
+    formatter.dateFormat = "hh:mm"
+
+
+    let timeString = formatter.string(from: dateTime)
+
+    return NSAttributedString(string: timeString)
 
   }
 
